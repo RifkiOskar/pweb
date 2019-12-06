@@ -11,9 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pweb.index');
-});
-
-
-Route::resource('pweb', 'PwebController');
+Route::resource('/', 'PwebController');
